@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto:wght@100&display=swap');
+
+.master-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coments-content-container {
+    width: 97%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #d21617, black);
+    padding-top: 1%;
+    border-radius: 10px;
+}
+
+#banner-coments {
+    width: 20%;
+    height: auto;
+    margin-left: 30px;
+}
+
+.coment-container {
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 10px;
+    background-color: rgba(0,0,0,.3);
+    padding: 10px 0 10px 0;
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px rgba(0,0,0,.5);
+    
+}
+
+.coment {
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .6s;
+    box-shadow: 8px 8px 10px rgba(0,0,0,.5);
+}
+
+.coment:hover {
+    transform: scale(1.01);
+}
+
+#img-cmt01 {
+    width: 25vw;
+    height: auto;
+}
+
+#img-cmt02 {
+    width: 25vw;
+    height: auto;
+}
+
+#img-cmt03 {
+    width: 25vw;
+    height: auto;
+}
+
+.txt {
+    text-align: left;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .coments-content-container {
+        flex-direction: column;
+    }
+
+    #banner-coments {
+        width: 40%;
+        margin-left: 0;
+    }
+
+    .coment-container {
+        width: 80%;
+        padding: 2% 4%;        
+    }
+
+    .txt {
+        font-size: 12px;
+    }
+
+    #img-cmt01 {
+        width: 55vw;
+        height: auto;
+    }
+    
+    #img-cmt02 {
+        width: 55vw;
+        height: auto;
+    }
+    
+    #img-cmt03 {
+        width: 55vw;
+        height: auto;
+    }
+}

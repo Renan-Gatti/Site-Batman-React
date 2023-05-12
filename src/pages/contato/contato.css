@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+.content-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-contato {
+    width: 30%;
+    height: auto;
+}
+
+.box-contato {
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #d21617, black) ;
+    border-radius: 10px;
+    margin-right: 2%;
+}
+
+.titulo-contato {
+    font-family: 'Kdam Thmor Pro',sans-serif;
+    color: black;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 2%;
+}
+
+.form-contato {
+    width: 85%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.55);
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+#nome {
+    width: 80%;
+    height: 7%;
+    border: none;
+    border-radius: 3px;
+}
+
+#email {
+    width: 80%;
+    height: 7%;
+    border: none;
+    border-radius: 3px;
+}
+
+#assunto {
+    width: 80%;
+    height: 7%;
+    border: none;
+    border-radius: 3px;
+}
+
+#mensagem {
+    width: 80%;
+    height: 40%;
+    border: none;
+    border-radius: 3px;
+}
+
+#button-enviar {
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, #d21617, black);
+    border: none;
+    font-size: 18px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#button-enviar:hover {
+    transform: scale(1.04);
+}
+
+@media (max-width: 768px) {
+    .content-container {
+        flex-direction: column;
+    }
+
+    #img-contato {
+        width: 70%;
+    }
+
+    .box-contato {
+        width: 95%;
+        margin-right: 0;
+    }
+
+    .form-contato {
+        width: 92%;
+    }
+
+    #nome {
+        width: 92%;
+    }
+    
+    #email {
+        width: 92%;
+    }
+    
+    #assunto {
+        width: 92%;
+    }
+    
+    #mensagem {
+        width: 92%;
+        height: 40%;
+    }
+}  

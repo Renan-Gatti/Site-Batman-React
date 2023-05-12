@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#banner {
+    width: 100%;
+    height: auto;
+    background-position: 50% 50%;
+    background-size: auto;
+}
+
+.content-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.content {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+
+#trailer {
+    width: 50%;
+}
+
+.sinopse {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    margin-left: 1%;
+}
+
+.texto-sinopse {
+    text-align: left;
+    font-family: 'Kdam Thmor Pro',sans-serif;
+    font-size: 14px;
+    color: aliceblue;
+    
+}
+
+#button-home {
+    width: 200px;
+    height: 60px;
+    background-color: #d21617;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    margin-top: 4%;
+}
+
+#button-home:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    background-color: #000;
+}
+
+.cards-content {
+    width: 97%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    column-gap: 2%;
+}
+
+.card {
+    width: 100%;
+    height: 80vh;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro',sans-serif;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.banner-1 {
+    background-image: url('../../assets/banner-1.jpg');
+}
+
+.banner-2 {
+    background-image: url('../../assets/banner-2.jpg');
+}
+
+.banner-3 {
+    background-image: url('../../assets/banner-3.jpg');
+}
+
+@media (max-width: 768px) {
+    
+    .content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1%;
+    }
+
+    #trailer {
+        width: 100%;
+    }
+
+    .sinopse {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards-content {
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        column-gap: 1%;
+        row-gap: 1%;
+    }
+}

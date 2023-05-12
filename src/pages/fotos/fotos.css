@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+.content-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotos-container {
+    width: 98%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #d21617, black);
+    border-radius: 10px;
+}
+
+.titulo-fotos {
+    font-family: 'Kdam Thmor Pro',sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.galeria {
+    width: 90%;
+    max-height: 3000vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    column-gap: 1%;
+    row-gap: 10px;
+    background-color: rgba(0,0,0,.4);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.foto {
+    width: 100%;
+    height: 25vh;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 8px 8px 10px rgba(0,0,0,.5);
+    transition: .5s;
+    border-radius: 5px;
+}
+
+.foto:hover {
+    transform: scale(1.02);
+}
+
+.ft01 {
+    background-image: url('../../assets/ft01.jpg');
+}
+
+.ft02 {
+    background-image: url('../../assets/ft02.jfif');
+}
+
+.ft03 {
+    background-image: url('../../assets/ft03.jfif');
+}
+
+.ft04 {
+    background-image: url('../../assets/ft04.jfif');
+}
+
+.ft05 {
+    background-image: url('../../assets/ft05.jfif');
+}
+
+.ft06 {
+    background-image: url('../../assets/ft06.jfif');
+}
+
+.ft07 {
+    background-image: url('../../assets/ft07.jfif');
+}
+
+.ft08 {
+    background-image: url('../../assets/ft08.jfif');
+}
+
+.ft09 {
+    background-image: url('../../assets/ft09.jfif');
+}
+
+.ft10 {
+    background-image: url('../../assets/ft10.jfif');
+}
+
+.ft11 {
+    background-image: url('../../assets/ft11.jfif');
+}
+
+.ft12 {
+    background-image: url('../../assets/ft12.jfif');
+}
+
+.ft13 {
+    background-image: url('../../assets/ft13.jfif');
+}
+
+.ft14 {
+    background-image: url('../../assets/ft14.jfif');
+}
+
+.ft15 {
+    background-image: url('../../assets/ft15.jfif');
+}
+
+.ft16 {
+    background-image: url('../../assets/ft16.jfif');
+}
+
+.ft17 {
+    background-image: url('../../assets/ft17.jfif');
+}
+
+.ft18 {
+    background-image: url('../../assets/ft18.jfif');
+}
+
+.ft19 {
+    background-image: url('../../assets/ft19.jfif');
+}
+
+.ft20 {
+    background-image: url('../../assets/ft20.jfif');
+}
+
+.ft21 {
+    background-image: url('../../assets/ft21.jfif');
+}
+
+.ft22 {
+    background-image: url('../../assets/ft22.jpg.webp');
+}
+
+.ft23 {
+    background-image: url('../../assets/ft23.jpg');
+}
+
+.ft24 {
+    background-image: url('../../assets/ft24.jfif');
+}
